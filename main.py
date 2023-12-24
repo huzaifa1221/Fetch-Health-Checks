@@ -3,8 +3,6 @@ import time
 from collections import defaultdict
 import yaml
 
-
-
 def check_health(url, method="GET", headers={}, body=None):
     """
     Check the health of an HTTP endpoint.
